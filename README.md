@@ -14,8 +14,9 @@ Instructions:
 7. Scroll to the bottom for the graphs. 
 
 ## Notes
--If you're tech-savvy and want to run this more quickly, you can download the github contents and run the Python Notebook on your own computer as opposed to via the server. To do this you'll need to install Anaconda.
--In case you're interested in doing this analysis on your own from scratch, this is (at a high level) the methodology I followed:
+- If you're tech-savvy and want to run this more quickly, you can download the github contents and run the Python Notebook on your own computer as opposed to via the server. To do this you'll need to install Anaconda.
+
+- In case you're interested in doing this analysis on your own from scratch, this is (at a high level) the methodology I followed:
 1) Download HS trade data and extract a list of all HS-coded products. Use the R package "concord" (developed by MIT economists) to get a list of which HS products correspond to which NAICS products. 
 2) Download the US BEA's 2007 input-output table (which has the most detailed data available in a reasonably recent year). Convert their concordance page to something more machine-readable (I did this by hand). Use that to get a list of which NAICS products correspond to which BEA products (they use their own classification system). 
 3) Using these product concordance tables, employ a statistical programming language (I used Python) to aggregate the HS trade data first to the NAICS and then to the BEA level. As you aggregate, you'll notice that some products correspond to several products at an aggregated level. In principle there are several ways you can handle this; my approach was to spread the products evenly into the higher-level categories. Having aggregated the trade data, filter it to include only the countries and years you're interested in. 
