@@ -13,7 +13,7 @@ Instructions:
 6. Wait again for the script to run. Since this is running off a free server, not your local machine, it will run slowly. You can go do something else and check for the results later. 
 7. Scroll to the bottom for the graphs. 
 
-##NOTES
+## Notes
 -If you're tech-savvy and want to run this more quickly, you can download the github contents and run the Python Notebook on your own computer as opposed to via the server. To do this you'll need to install Anaconda.
 -In case you're interested in doing this analysis on your own from scratch, this is (at a high level) the methodology I followed:
 1) Download HS trade data and extract a list of all HS-coded products. Use the R package "concord" (developed by MIT economists) to get a list of which HS products correspond to which NAICS products. 
