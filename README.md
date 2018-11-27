@@ -14,3 +14,5 @@ Instructions:
 7. Scroll to the bottom for the graphs. 
 
 Alternatively, you can download "data_out.csv" to do whatever you want with it. This is a panel dataset which reports dependency coefficient and 95% CI for each variable, for each country in each year. 
+
+Slides with an overview of data and methodology: https://drive.google.com/open?id=1_o9yvmCDM-Ky7r-BUT9ZXhg1VPrKoOv43AXx-tRYkl8
