@@ -5,7 +5,7 @@ You can use this github repistory to create analyses of how much your country's 
 Instructions:
 
 1. Click here:
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/eric-protzer/dependency-dev309/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/eric-protzer/dependency-dev309/master)
 2. WAIT for the server to go live
 3. Click on the file "Dependency Graphing 4.0"
 4. In cell #1, change the ISO codes to the countries you want to look at. Set the variable 'mycountry' to your own country (replace 'VNM'), and set the variable 'peers' to a list of your country's peers. Then, set the list of years to the years you want to look at (they must be within the range 1995 - 2016).
