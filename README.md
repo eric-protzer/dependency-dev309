@@ -6,7 +6,7 @@ Instructions:
 
 1. Click here:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/eric-protzer/dependency-dev309/master)
-2. WAIT for the server to go live
+2. WAIT for the server to go live (if it's taking a long time click "Show" on the build logs bar - if the black terminal is blank, try refreshing the page; if there are lines of text just be patient)
 3. Click on the file "Dependency Graphing 4.0"
 4. In cell #1, change the ISO codes to the countries you want to look at. Set the variable 'mycountry' to your own country (replace 'VNM'), and set the variable 'peers' to a list of your country's peers. Then, set the list of years to the years you want to look at (they must be within the range 1995 - 2016).
 5. Run the script by going to the tab "Cell" and then clicking "Run All." 
