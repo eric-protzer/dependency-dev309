@@ -1,6 +1,6 @@
 # dependency-dev309
 
-You can use this github repistory to create analyses of how much your country's export sector depends on certain public goods. You just need to input your country's ISO code, the ISO codes of its peers, and the years (from 1995 to 2016) you want to look at.
+You can use this github repistory to create analyses of how much your country's export sector depends on certain public goods. You just need to input your country's ISO code, the ISO codes of its peers, and the years (from 1995 to 2021) you want to look at.
 
 Instructions:
 
